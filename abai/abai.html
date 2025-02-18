@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кітапхана</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .book {
+            display: inline-block;
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .book img {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Кітапхана</h1>
+        <nav>
+            <ul>
+                <li><a href="#catalog" class="button">Каталог</a></li>
+                <li><a href="#about" class="button">О нас</a></li>
+                <li><a href="#contact" class="button">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h3>Абай жолы</h3>
+            <p>«Абай жолы» — қазақ әдебиетінің классикалық шығармасы, ұлы ақын Абай Құнанбаевтың өмірі мен шығармашылығын бейнелейтін роман-эпопея. Бұл туындының авторы — қазақтың көрнекті жазушысы Мұхтар Әуезов. Роман алғаш рет 1942 жылы жарияланып, кейін бірнеше рет толықтырылып, кеңейтілді.
+
+Шығармада Абайдың балалық шағынан бастап, үлкен өмірге қадам басуы, ақындық пен ғалымдық жолындағы күресі, қоғам мен мәдениет мәселелеріне деген көзқарастары терең суреттеледі. Сонымен қатар, «Абай жолы» арқылы қазақ халқының XIX ғасырдағы әлеуметтік, саяси жағдайлары, дәстүрлер мен тұрмысы, адамгершілік құндылықтары мен қақтығыстары кеңінен ашылған.
+
+Бұл туынды қазақ әдебиетінде ерекше орын алады және көпшіліктің сүйіп оқитын шығармасы болып табылады.</p>
+        </section>
+        <section id="catalog">
+            <h2>Каталог книг</h2>
+            <div class="book">
+                <img src="https://adebiportal.kz/storage/tmp/resize/books/350_0_3ae4a3897f409d28af79d414be178d53.jpg" alt="Абай жолы">
+                <h3>Абай жолы Том 1</h3>
+                <p>Автор: Мұхтар Әуезов</p>
+                <p>Жанр: Роман-эпопеи</p>
+                <a href="abai1.pdf" class="button" target="_blank">Оқу</a>
+            </div>
+            <div class="book">
+                <img src="https://adebiportal.kz/storage/tmp/resize/books/350_0_b891b685944d8a6acf8197072f5ef90f.jpg" alt="Абай жолы">
+                <h3>Абай жолы том 2</h3>
+                <p>Автор: Мұхтар Әуезов</p>
+                <p>Жанр: Роман-эпопеи</p>
+                <a href="abai2.pdf" class="button" target="_blank">Оқу</a>
+            </div>
+            <div class="book">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJlTJRhBYr4TzlLZhraS0ZyM7FD8axPiHyiw&s" alt="Абай жолы">
+                <h3>Абай жолы том 2</h3>
+                <p>Автор: Мұхтар Әуезов</p>
+                <p>Жанр: Роман-эпопеи</p>
+                <a href="abai3.pdf" class="button" target="_blank">Оқу</a>
+            </div>
+            
+        </section>
+
+        <section id="about">
+            <h2>Біз туралы</h2>
+            <p>
+Біздің кітапханаға қош келдіңіз! Біз қазақ әдебиетінің және әлем классиктерінің бай мұрасына қолжетімділікті қамтамасыз етуге ұмтыламыз. Біздің міндетіміз – кітап оқуды және мәдени алмасуды насихаттау.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Адрес: г. Нур-Султан, ул. Книжная, 10</p>
+            <p>Телефон: +7 (775) 000 000 </p>
+            <p>Email: serdalymiras0@gmail.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Кітапхана</p>
+    </footer>
+    <script>
+        //Optional javascript can be added here.
+    </script>
+</body>
+</html>
